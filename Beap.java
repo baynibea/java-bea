@@ -12,6 +12,9 @@ public class beap
         
         int number1 = Integer.parseInt( firstNumber );
         int number2 = Integer.parseInt( secondNumber );
-        int sum = number1 + number2;
+        int sum = number1 + number2;[
+
+        JOptionPane.showMessageDialog(null, "the sum is" + sum, "Sum of two integers", JOptionPane.PLAIN_MESSAGE);
+                                      
     }
 }
